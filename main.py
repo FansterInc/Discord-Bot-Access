@@ -35,4 +35,4 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(main(), debug=True, host='0.0.0.0', port=9000)
